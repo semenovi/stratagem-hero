@@ -1,0 +1,12 @@
+App(
+    appid="stratagem_hero",
+    name="Stratagem Hero",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="stratagem_hero_app",
+    stack_size=2 * 1024,
+    fap_category="Games",
+    fap_icon="stratagem_icon.png",
+    fap_description="Helldivers 2 Stratagem Hero game for Flipper Zero",
+    fap_author="madbearing",
+    fap_weburl="https://github.com/semenovi/stratagem-hero",
+)
